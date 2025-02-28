@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeTribe - Pen Pal Finder</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 375px;
+            height: 750px;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .header svg {
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+        }
+        h2 {
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        .filter-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            background: #e0e0e0;
+            padding: 10px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        .filter-bar button {
+            background: #c0c0c0;
+            border: none;
+            padding: 10px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .user-list {
+            text-align: left;
+        }
+        .user {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            margin-bottom: 10px;
+            background: #f0f0f0;
+            border-radius: 10px;
+        }
+        .user img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .user button {
+            background: #121212;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M32 15H3.41l8.29-8.29-1.41-1.42-10 10a1 1 0 0 0 0 1.41l10 10 1.41-1.41L3.41 17H32z" data-name="4-Arrow Left"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path d="M4 6h16M4 12h16M4 18h16" stroke="#000" stroke-width="2" stroke-linecap="round"/></svg>
+    </div>
+    <h2>Find Your Perfect Pen Pal</h2>
+    <div class="filter-bar">
+        <button>Age</button>
+        <button>Language</button>
+        <button>Location</button>
+        <button>Interests</button>
+    </div>
+    <div class="user-list">
+        <div class="user">
+            <img src="https://via.placeholder.com/40" alt="user">
+            <span>ALEX09</span>
+            <button>Send Request</button>
+        </div>
+        <div class="user">
+            <img src="https://via.placeholder.com/40" alt="user">
+            <span>BRENT RIVERA</span>
+            <button>Send Request</button>
+        </div>
+        <div class="user">
+            <img src="https://via.placeholder.com/40" alt="user">
+            <span>LEXI_07</span>
+            <button>Send Request</button>
+        </div>
+        <div class="user">
+            <img src="https://via.placeholder.com/40" alt="user">
+            <span>ANDREW__</span>
+            <button>Send Request</button>
+        </div>
+        <div class="user">
+            <img src="https://via.placeholder.com/40" alt="user">
+            <span>NATALIESADIGHI</span>
+            <button>Send Request</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

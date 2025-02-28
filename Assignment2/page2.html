@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeTribe Sign Up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #ffffff;
+        }
+        .container {
+            width: 360px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .arrow-button {
+            text-align: left;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        .arrow-button svg {
+            width: 25px;
+            height: 25px;
+        }
+        .user-icon {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .user-icon svg {
+            width: 60px;
+            height: 60px;
+            padding: 10px;
+         
+            border-radius: 50%;
+        }
+        h2 {
+            margin: 10px 0 30px 0;
+            color: #232326;
+        }
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            outline: none;
+            background: #D3D3D3;
+            border-radius: 5px;
+        }
+        button {
+            background: #D7C7F4;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            margin: 20px 0;
+        }
+        .or {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #232326;
+        }
+        .or::before, .or::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: #ccc;
+            margin: 0 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #232326;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="arrow-button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path style="fill:#232326" d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"/></svg>
+    </div>
+    <div class="user-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 0 8 8 8 8 0 0 0-8-8zm0 15a7 7 0 0 1-5.19-2.32 2.71 2.71 0 0 1 1.7-1 13.11 13.11 0 0 0 1.29-.28 2.32 2.32 0 0 0 .94-.34 1.17 1.17 0 0 0-.27-.7 3.61 3.61 0 0 1-1.32-2.87A3.18 3.18 0 0 1 8 4.07a3.18 3.18 0 0 1 2.86 3.42 3.6 3.6 0 0 1-1.32 2.88 1.13 1.13 0 0 0-.27.69 2.68 2.68 0 0 0 .93.31 10.81 10.81 0 0 0 1.28.23 2.63 2.63 0 0 1 1.78 1A7 7 0 0 1 8 15z"/></svg>
+    </div>
+    <h2>Sign up to VIBETRIBE</h2>
+    <form>
+        <input type="text" placeholder="Name" required><br>
+        <input type="text" placeholder="Username" required><br>
+        <input type="email" placeholder="Email" required><br>
+        <input type="password" placeholder="Password" required><br>
+        <button type="submit">CREATE ACCOUNT</button>
+    </form>
+    <div class="or">OR</div>
+    <a href="#">Already have an account? Sign in</a>
+</div>
+</body>
+</html>
